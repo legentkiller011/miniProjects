@@ -143,7 +143,6 @@ def ex(matches, k):
     sorted_by_val = {k: b for k, b in sorted(indexdic.items(), key=lambda element: element[1], reverse=True)}
     rankingindex = list(sorted_by_val.keys())
 
-
     return rankingindex
 
 
